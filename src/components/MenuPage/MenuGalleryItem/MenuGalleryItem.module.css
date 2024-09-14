@@ -1,0 +1,79 @@
+.item {
+  background-color: rgb(214, 236, 214);
+  box-shadow: 2px 2px 8px rgb(79, 79, 79);
+  transition: 0.4s;
+  position: relative;
+}
+.item:hover {
+  box-shadow: 5px 5px 8px rgb(75, 75, 75);
+}
+.item img {
+  border-radius: 15px;
+}
+
+.content {
+  padding: 15px;
+}
+.name {
+  font-size: 16px;
+  color: rgb(60, 59, 59);
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.rating img {
+  width: 80px;
+}
+.description {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: rgb(112, 112, 112);
+  opacity: 0.8;
+}
+.price {
+  font-size: 20px;
+  color: tomato;
+  font-weight: 600;
+}
+.order {
+  position: absolute;
+  top: 150px;
+  right: 45px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.counter {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.minus,
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(248, 62, 62);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.plus {
+  background-color: rgb(24, 124, 24);
+}
