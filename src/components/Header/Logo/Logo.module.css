@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  color: rgb(13, 85, 13);
+  text-decoration-line: underline;
+  font-weight: 700;
+}

@@ -1,0 +1,49 @@
+.container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  color: rgb(120, 119, 119);
+  font-size: 30px;
+}
+.text {
+  width: 60%;
+  color: rgb(40, 40, 40);
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin: 20px 0;
+  overflow-x: scroll;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.item {
+  cursor: pointer;
+  border-radius: 50%;
+}
+.item p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.image {
+  min-width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 2px;
+  border: 5px solid transparent;
+  transition: all 0.4s ease;
+}
+.image:not(.isActive):hover {
+  transform: scale(1.1);
+}
+
+.isActive {
+  border-color: green;
+}

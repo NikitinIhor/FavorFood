@@ -1,0 +1,11 @@
+.text {
+  margin-top: 40px;
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
+.home {
+  margin-left: 10px;
+  color: green;
+  text-decoration: underline;
+}
