@@ -25,3 +25,20 @@
   top: -8px;
   right: -6px;
 }
+@media screen and (max-width: 520px) {
+  .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .sidebar {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn {
+    font-size: 12px;
+  }
+  .sidebar {
+    gap: 10px;
+  }
+}

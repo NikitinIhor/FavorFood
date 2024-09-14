@@ -6,9 +6,13 @@ import css from "./Header.module.css";
 export default function Header() {
   return (
     <header className={css.header}>
-      <Logo />
-      <Navigation />
-      <SideBar />
+      <div className={css.headerTop}>
+        <Logo />
+        <SideBar />
+      </div>
+      <div className={css.headerBottom}>
+        <Navigation />
+      </div>
     </header>
   );
 }

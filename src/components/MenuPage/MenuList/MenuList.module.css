@@ -47,3 +47,18 @@
 .isActive {
   border-color: green;
 }
+@media screen and (max-width: 520px) {
+  .title {
+    font-size: 22px;
+  }
+  .text {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+.list {
+  margin: 5px 0;
+}
+.container {
+  margin: 10px 0;
+}

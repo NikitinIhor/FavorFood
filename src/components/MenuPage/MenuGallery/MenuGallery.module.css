@@ -40,10 +40,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-bottom: 5px;
 }
+.rating img {
+  min-width: 40px;
+}
 .description {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 5px;
   color: rgb(112, 112, 112);
   opacity: 0.8;
@@ -52,4 +57,15 @@
   font-size: 20px;
   color: tomato;
   font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  .list {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
