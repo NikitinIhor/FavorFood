@@ -1,6 +1,15 @@
 import css from "./Header.module.css";
 
-export default function Header() {
+export default function Header({
+  setCategory,
+  setshowMenuGallery,
+  handleViewMenu,
+}) {
+  const handleClick = () => {
+    setshowMenuGallery(true), setCategory("all");
+    handleViewMenu();
+  };
+
   return (
     <div className={css.munu}>
       <div className={css.content}>
@@ -11,7 +20,9 @@ export default function Header() {
           a wide variety of dishes, all prepared with the finest ingredients and
           delivered right to your door
         </p>
-        <button type="button">View Menu</button>
+        <button onClick={handleClick} type="button">
+          View Menu
+        </button>
       </div>
     </div>
   );

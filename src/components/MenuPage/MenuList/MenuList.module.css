@@ -31,6 +31,7 @@
 .item p {
   margin-top: 10px;
   font-size: 18px;
+  text-shadow: 1px 1px rgb(129, 214, 158);
 }
 .image {
   min-width: 80px;
@@ -39,9 +40,10 @@
   padding: 2px;
   border: 5px solid transparent;
   transition: all 0.4s ease;
+  box-shadow: 2px 2px 3px black;
 }
 .image:not(.isActive):hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .isActive {

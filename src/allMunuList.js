@@ -41,7 +41,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "A fresh mix of crisp vegetables, vibrant fruits, tossed in a flavorful dressing.",
-    category: "salad",
+    category: "Salad",
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "A fresh mix of crisp vegetables, vibrant fruits, tossed in a flavorful dressing.",
-    category: "salad",
+    category: "Salad",
   },
   {
     id: 3,
@@ -61,7 +61,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "A fresh mix of crisp vegetables, vibrant fruits, tossed in a flavorful dressing.",
-    category: "salad",
+    category: "Salad",
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "A fresh mix of crisp vegetables, vibrant fruits, tossed in a flavorful dressing.",
-    category: "salad",
+    category: "Salad",
   },
   {
     id: 5,
@@ -81,7 +81,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Delicate rolls filled with a fresh variety of vegetables, seafood, or meats.",
-    category: "rolls",
+    category: "Role",
   },
   {
     id: 6,
@@ -91,7 +91,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Delicate rolls filled with a fresh variety of vegetables, seafood, or meats.",
-    category: "rolls",
+    category: "Role",
   },
   {
     id: 7,
@@ -101,7 +101,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Delicate rolls filled with a fresh variety of vegetables, seafood, or meats.",
-    category: "rolls",
+    category: "Role",
   },
   {
     id: 8,
@@ -111,7 +111,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Delicate rolls filled with a fresh variety of vegetables, seafood, or meats.",
-    category: "rolls",
+    category: "Role",
   },
   {
     id: 9,
@@ -121,7 +121,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our ice cream is smooth, and comes in a variety of rich flavors, perfect for a refreshing treat.",
-    category: "iceCream",
+    category: "Desert",
   },
   {
     id: 10,
@@ -131,7 +131,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our ice cream is smooth, and comes in a variety of rich flavors, perfect for a refreshing treat.",
-    category: "iceCream",
+    category: "Desert",
   },
   {
     id: 11,
@@ -141,7 +141,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our ice cream is smooth, and comes in a variety of rich flavors, perfect for a refreshing treat.",
-    category: "iceCream",
+    category: "Desert",
   },
   {
     id: 12,
@@ -151,7 +151,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our ice cream is smooth, and comes in a variety of rich flavors, perfect for a refreshing treat.",
-    category: "iceCream",
+    category: "Desert",
   },
   {
     id: 13,
@@ -161,7 +161,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our sandwiches are packed with fresh, ingredients, offering a delicious balance of flavors.",
-    category: "sandwich",
+    category: "Sandwiche",
   },
   {
     id: 14,
@@ -171,7 +171,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our sandwiches are packed with fresh, ingredients, offering a delicious balance of flavors.",
-    category: "sandwich",
+    category: "Sandwiche",
   },
   {
     id: 15,
@@ -181,7 +181,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our sandwiches are packed with fresh, ingredients, offering a delicious balance of flavors.",
-    category: "sandwich",
+    category: "Sandwiche",
   },
   {
     id: 16,
@@ -191,7 +191,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our sandwiches are packed with fresh, ingredients, offering a delicious balance of flavors.",
-    category: "sandwich",
+    category: "Sandwiche",
   },
   {
     id: 17,
@@ -201,7 +201,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our cakes offer rich flavors and indulgent layers, perfect for any sweet tooth craving.",
-    category: "cake",
+    category: "Cake",
   },
   {
     id: 18,
@@ -211,7 +211,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our cakes offer rich flavors and indulgent layers, perfect for any sweet tooth craving.",
-    category: "cake",
+    category: "Cake",
   },
   {
     id: 19,
@@ -221,7 +221,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our cakes offer rich flavors and indulgent layers, perfect for any sweet tooth craving.",
-    category: "cake",
+    category: "Cake",
   },
   {
     id: 20,
@@ -231,7 +231,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our cakes offer rich flavors and indulgent layers, perfect for any sweet tooth craving.",
-    category: "cake",
+    category: "Cake",
   },
   {
     id: 21,
@@ -241,7 +241,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our pasta dishes feature perfectly cooked noodles paired with rich, savory sauces and fresh ingredients",
-    category: "pure",
+    category: "Pure Veg",
   },
   {
     id: 22,
@@ -251,7 +251,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our pasta dishes feature perfectly cooked noodles paired with rich, savory sauces and fresh ingredients",
-    category: "pure",
+    category: "Pure Veg",
   },
   {
     id: 23,
@@ -261,7 +261,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our pasta dishes feature perfectly cooked noodles paired with rich, savory sauces and fresh ingredients",
-    category: "pure",
+    category: "Pure Veg",
   },
   {
     id: 24,
@@ -271,7 +271,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Our pasta dishes feature perfectly cooked noodles paired with rich, savory sauces and fresh ingredients",
-    category: "pure",
+    category: "Pure Veg",
   },
   {
     id: 25,
@@ -281,7 +281,7 @@ export const menuGallery = [
     rating: rating,
     description:
       " Savory, al dente pasta served with rich sauces and fresh ingredients. A perfect blend of comfort and flavor in every bite.",
-    category: "pasta",
+    category: "Pasta",
   },
   {
     id: 26,
@@ -291,7 +291,7 @@ export const menuGallery = [
     rating: rating,
     description:
       " Savory, al dente pasta served with rich sauces and fresh ingredients. A perfect blend of comfort and flavor in every bite.",
-    category: "pasta",
+    category: "Pasta",
   },
   {
     id: 27,
@@ -301,7 +301,7 @@ export const menuGallery = [
     rating: rating,
     description:
       " Savory, al dente pasta served with rich sauces and fresh ingredients. A perfect blend of comfort and flavor in every bite.",
-    category: "pasta",
+    category: "Pasta",
   },
   {
     id: 28,
@@ -311,7 +311,7 @@ export const menuGallery = [
     rating: rating,
     description:
       " Savory, al dente pasta served with rich sauces and fresh ingredients. A perfect blend of comfort and flavor in every bite.",
-    category: "pasta",
+    category: "Pasta",
   },
   {
     id: 29,
@@ -321,7 +321,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Enjoy our expertly crafted noodles, served in savory stir-fries. Perfectly cooked and packed with flavor.",
-    category: "noodlie",
+    category: "Noodles",
   },
   {
     id: 30,
@@ -331,7 +331,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Enjoy our expertly crafted noodles, served in savory stir-fries. Perfectly cooked and packed with flavor.",
-    category: "noodlie",
+    category: "Noodles",
   },
   {
     id: 31,
@@ -341,7 +341,7 @@ export const menuGallery = [
     rating: rating,
     description:
       "Enjoy our expertly crafted noodles, served in savory stir-fries. Perfectly cooked and packed with flavor.",
-    category: "noodlie",
+    category: "Noodles",
   },
   {
     id: 32,
@@ -351,6 +351,6 @@ export const menuGallery = [
     rating: rating,
     description:
       "Enjoy our expertly crafted noodles, served in savory stir-fries. Perfectly cooked and packed with flavor.",
-    category: "noodlie",
+    category: "Noodles",
   },
 ];

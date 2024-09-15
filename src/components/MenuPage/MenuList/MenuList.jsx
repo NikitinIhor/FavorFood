@@ -1,9 +1,16 @@
 import { menu } from "../../../menu";
 import css from "./MenuList.module.css";
 
-export default function MenuList({ category, setCategory }) {
+export default function MenuList({
+  category,
+  setCategory,
+  setshowMenuGallery,
+  handleViewMenu,
+}) {
   const handleClick = (name) => {
     setCategory((prev) => (prev === name ? "all" : name));
+    setshowMenuGallery(true);
+    handleViewMenu();
   };
 
   return (
