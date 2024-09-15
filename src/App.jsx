@@ -15,7 +15,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
-    }, 3800);
+    }, 5000);
   }, [setLoader]);
 
   if (loader) return <Loader />;

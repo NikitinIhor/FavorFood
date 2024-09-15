@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className={css.footer}>
       <div className={css.logo}>
         Favor
-        <IconContext.Provider value={{ size: 60, color: "white" }}>
+        <IconContext.Provider value={{ size: 40, color: "white" }}>
           <IoFastFoodOutline />
         </IconContext.Provider>
         Food.

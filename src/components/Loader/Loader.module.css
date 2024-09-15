@@ -1,15 +1,18 @@
-.loader {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-
-  font-size: 35px;
-  color: rgb(13, 85, 13);
-  text-decoration-line: underline;
-  font-weight: 700;
+@keyframes underlineLeft {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
+}
+@keyframes underlineRight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
 }
 
 @keyframes fadeIn {
@@ -21,6 +24,43 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.loader {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: rgb(13, 85, 13);
+  font-weight: 700;
+}
+.underline {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(13, 85, 13);
+  animation: underlineLeft 1s forwards;
+  animation-delay: 3s;
+}
+.underline::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(13, 85, 13);
+  animation: underlineRight 1s forwards;
+  animation-delay: 3s;
 }
 
 .loader span {
