@@ -1,5 +1,33 @@
-// import css from './Home.module.css'
+import { useRef, useState } from "react";
+import Header from "../../components/HomePage/Header/Header";
+import MenuGallery from "../../components/HomePage/MenuGallery/MenuGallery";
+import MenuList from "../../components/HomePage/MenuList/MenuList";
 
 export default function Home() {
-  return <p>home</p>;
+  const [category, setCategory] = useState("all");
+  const [showMenuGallery, setshowMenuGallery] = useState(false);
+  const menuRef = useRef();
+
+  const handleViewMenu = () => {
+    setTimeout(() => {
+      menuRef.current?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  };
+
+  return (
+    <>
+      <Header
+        setCategory={setCategory}
+        setshowMenuGallery={setshowMenuGallery}
+        handleViewMenu={handleViewMenu}
+      />
+      <MenuList
+        category={category}
+        setCategory={setCategory}
+        setshowMenuGallery={setshowMenuGallery}
+        handleViewMenu={handleViewMenu}
+      />
+      {showMenuGallery && <MenuGallery category={category} menuRef={menuRef} />}
+    </>
+  );
 }
