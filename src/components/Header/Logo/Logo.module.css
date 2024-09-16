@@ -6,8 +6,8 @@
   text-decoration-line: underline;
   font-weight: 700;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 400px) {
   .logo {
-    font-size: 18px;
+    font-size: 24px;
   }
 }

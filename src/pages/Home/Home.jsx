@@ -3,7 +3,7 @@ import Header from "../../components/HomePage/Header/Header";
 import MenuGallery from "../../components/HomePage/MenuGallery/MenuGallery";
 import MenuList from "../../components/HomePage/MenuList/MenuList";
 
-export default function Home() {
+export default function Home({ handleRemoveProduct, handleAddProduct }) {
   const [category, setCategory] = useState("all");
   const [showMenuGallery, setshowMenuGallery] = useState(false);
   const menuRef = useRef();
@@ -27,7 +27,14 @@ export default function Home() {
         setshowMenuGallery={setshowMenuGallery}
         handleViewMenu={handleViewMenu}
       />
-      {showMenuGallery && <MenuGallery category={category} menuRef={menuRef} />}
+      {showMenuGallery && (
+        <MenuGallery
+          handleAddProduct={handleAddProduct}
+          handleRemoveProduct={handleRemoveProduct}
+          category={category}
+          menuRef={menuRef}
+        />
+      )}
     </>
   );
 }

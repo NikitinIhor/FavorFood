@@ -18,7 +18,7 @@ export default function Footer() {
       <ul className={css.socials}>
         <li>
           <a href="https://www.linkedin.com/in/nikitin-ihor/" target="_blank">
-            <IconContext.Provider value={{ size: 30, color: "white" }}>
+            <IconContext.Provider value={{ size: 20, color: "white" }}>
               <CiLinkedin />
             </IconContext.Provider>
           </a>
@@ -28,21 +28,21 @@ export default function Footer() {
             href="https://www.facebook.com/igor.nikitin.73113/ "
             target="_blank"
           >
-            <IconContext.Provider value={{ size: 30, color: "white" }}>
+            <IconContext.Provider value={{ size: 20, color: "white" }}>
               <CiFacebook />
             </IconContext.Provider>
           </a>
         </li>
         <li>
           <a href="https://wa.me/+48570642244" target="_blank">
-            <IconContext.Provider value={{ size: 30, color: "white" }}>
+            <IconContext.Provider value={{ size: 20, color: "white" }}>
               <FaWhatsapp />
             </IconContext.Provider>
           </a>
         </li>
         <li>
           <a href="https://github.com/NikitinIhor" target="_blank">
-            <IconContext.Provider value={{ size: 30, color: "white" }}>
+            <IconContext.Provider value={{ size: 20, color: "white" }}>
               <LuGithub />
             </IconContext.Provider>
           </a>

@@ -1,44 +1,36 @@
 .sidebar {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  margin-right: 30px;
 }
-.btn {
-  padding: 5px 20px;
-  border-radius: 50px;
-  border-color: green;
-  transition: all 0.4s ease;
-}
-.btn:hover {
-  background-color: rgb(55, 143, 55);
-  color: white;
+
+.search,
+.cart {
+  cursor: pointer;
 }
 .cart {
   position: relative;
 }
 .dot {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
   background-color: green;
   border-radius: 50%;
-  top: -8px;
-  right: -6px;
+  top: -15px;
+  right: -15px;
+  color: white;
+  border: 1px solid white;
+  font-size: 14px;
 }
-@media screen and (max-width: 520px) {
-  .btn {
-    padding: 5px 10px;
-    font-size: 14px;
-  }
+
+@media screen and (max-width: 400px) {
   .sidebar {
     gap: 15px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .btn {
-    font-size: 12px;
-  }
-  .sidebar {
-    gap: 10px;
+    margin-right: 0;
   }
 }

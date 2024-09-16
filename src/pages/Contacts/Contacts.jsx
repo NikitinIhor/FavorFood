@@ -1,5 +1,10 @@
-// import css from './Contacts.module.css'
+import FeedbackForm from "../../components/ContactsPage/FeedbackForm/FeedbackForm";
+import css from "./Contatcs.module.css";
 
 export default function Contacts() {
-  return <p>contacts</p>;
+  return (
+    <div className={css.container}>
+      <FeedbackForm />
+    </div>
+  );
 }

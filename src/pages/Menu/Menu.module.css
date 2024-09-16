@@ -3,10 +3,36 @@
   position: relative;
   padding-bottom: 50px;
 }
-.container h2 {
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 20px 30px;
+}
+.input {
+  position: relative;
+}
+input {
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  border-color: green;
+}
+input:focus {
+  border: 2px solid green;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.search {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.header h2 {
   font-size: 30px;
   color: rgb(120, 119, 119);
-  margin-bottom: 20px;
 }
 .container::before {
   content: "";
@@ -28,6 +54,9 @@
 @media screen and (max-width: 760px) {
   .list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .header {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 400px) {

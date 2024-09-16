@@ -2,7 +2,12 @@ import { menuGallery } from "../../../allMunuList";
 import MenuGalleryItem from "../MenuGalleryItem/MenuGalleryItem";
 import css from "./MenuGallery.module.css";
 
-export default function MenuGallery({ category, menuRef }) {
+export default function MenuGallery({
+  category,
+  menuRef,
+  handleRemoveProduct,
+  handleAddProduct,
+}) {
   const filtredMenu =
     category === "all"
       ? menuGallery
@@ -18,7 +23,12 @@ export default function MenuGallery({ category, menuRef }) {
 
       <ul className={css.list}>
         {filtredMenu.map((el) => (
-          <MenuGalleryItem key={el.id} el={el} />
+          <MenuGalleryItem
+            key={el.id}
+            el={el}
+            handleRemoveProduct={handleRemoveProduct}
+            handleAddProduct={handleAddProduct}
+          />
         ))}
       </ul>
     </div>

@@ -1,15 +1,23 @@
+.header {
+  padding-top: 10px;
+}
 .headerTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   height: 60px;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 .headerBottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -5px;
+  margin-top: -30px;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .headerBottom {
+    margin-top: -5px;
+  }
 }

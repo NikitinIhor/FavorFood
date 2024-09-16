@@ -1,0 +1,12 @@
+.container {
+  padding: 50px;
+  animation: show 3s;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

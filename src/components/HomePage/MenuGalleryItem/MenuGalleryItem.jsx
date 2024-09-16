@@ -1,14 +1,20 @@
 import { useState } from "react";
 import css from "./MenuGalleryItem.module.css";
 
-export default function MenuGalleryItem({ el }) {
+export default function MenuGalleryItem({
+  el,
+  handleAddProduct,
+  handleRemoveProduct,
+}) {
   const [counter, setCounter] = useState(0);
 
   const handleAdd = () => {
     setCounter((prev) => prev + 1);
+    handleAddProduct(el);
   };
   const handleRemove = () => {
     setCounter((prev) => prev - 1);
+    handleRemoveProduct(el);
   };
 
   return (
